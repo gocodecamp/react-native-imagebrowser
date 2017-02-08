@@ -1,4 +1,4 @@
-package com.bjzjnsdemo.modules;
+package com.bjzjnsdemo;
 
 import android.support.annotation.Nullable;
 import android.widget.Toast;
@@ -20,9 +20,9 @@ import java.util.ArrayList;
  * Created by blade on 17/01/2017.
  */
 
-public class ImageDisplayModule extends ReactContextBaseJavaModule {
+public class ZJImageBrowserManager extends ReactContextBaseJavaModule {
 
-    public ImageDisplayModule(ReactApplicationContext reactContext) {
+    public ZJImageBrowserManager(ReactApplicationContext reactContext) {
         super(reactContext);
     }
 
@@ -32,7 +32,7 @@ public class ImageDisplayModule extends ReactContextBaseJavaModule {
      */
     @Override
     public String getName() {
-        return "DisplayImage";
+        return "ZJImageBrowserManager";
     }
 
     @ReactMethod

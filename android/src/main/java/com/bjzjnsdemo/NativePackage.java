@@ -1,7 +1,6 @@
-package com.bjzjnsdemo.packages;
+package com.bjzjnsdemo;
 
-import com.bjzjnsdemo.modules.ImageDisplayModule;
-import com.bjzjnsdemo.modules.RichEditorModule;
+import com.bjzjnsdemo.ZJImageBrowserManager;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
 import com.facebook.react.bridge.NativeModule;
@@ -24,8 +23,7 @@ public class NativePackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        modules.add(new ImageDisplayModule(reactContext));
-        modules.add(new RichEditorModule(reactContext));
+        modules.add(new ZJImageBrowserManager(reactContext));
         return modules;
     }
 
