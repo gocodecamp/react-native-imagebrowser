@@ -13,12 +13,6 @@ android {
             abiFilters "armeabi-v7a", "x86"
         }
     }
-    buildTypes {
-        release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-        }
-    }
 }
 
 dependencies {
