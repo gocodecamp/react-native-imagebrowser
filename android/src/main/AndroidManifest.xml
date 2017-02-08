@@ -6,6 +6,10 @@
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="22" />
+	android:targetSdkVersion="22" />
+
+    <application>
+	<activity android:name="com.bjzjnsdemo.ui.activity.ImagePreviewActivity" />
+    </application>
 
 </manifest>
