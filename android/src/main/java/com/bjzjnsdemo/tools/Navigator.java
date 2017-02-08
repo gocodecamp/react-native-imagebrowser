@@ -19,7 +19,7 @@ public class Navigator {
     public static void startImageViewActivity(Context context, ArrayList<ImageItem> itemList,int currentIndex) {
         Intent intent = new Intent(context,ImagePreviewActivity.class);
         intent.putParcelableArrayListExtra(IntentKey.EXTRA_IMAGE_ITEMS,itemList);
-	intent.putExtra(Intent.EXTRA_SELECTED_IMAGE_POSITION,currentIndex);
+	intent.putExtra(IntentKey.EXTRA_SELECTED_IMAGE_POSITION,currentIndex);
         context.startActivity(intent);
     }
 
