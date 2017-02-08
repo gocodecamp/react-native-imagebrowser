@@ -1,0 +1,12 @@
+{
+  "name": "react-native-imagebrowser",
+  "version": "1.0.0",
+  "description": "native image browser ,one and many images",
+  "main": "index.js",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/gocodecamp/react-native-imagebrowser.git"
+  },
+  "author": "gocodecamp",
+  "license": "MIT"
+}
