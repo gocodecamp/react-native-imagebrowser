@@ -36,7 +36,7 @@ public class ZJImageBrowserManager extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void showImage(ReadableArray images) {
+    public void showImage(ReadableArray images,int currentIndex) {
         if (images != null && images.size() > 0) {
             ArrayList<ImageItem> allimages = new ArrayList<>();
             int size = images.size();
@@ -45,7 +45,7 @@ public class ZJImageBrowserManager extends ReactContextBaseJavaModule {
                 item.path = images.getString(i);
                 allimages.add(item);
             }
-            Navigator.startImageViewActivity(getCurrentActivity(),allimages);
+            Navigator.startImageViewActivity(getCurrentActivity(),allimages,currentIndex);
         }
     }
 

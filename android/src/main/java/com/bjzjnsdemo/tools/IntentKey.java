@@ -6,4 +6,5 @@ package com.bjzjnsdemo.tools;
 
 public class IntentKey {
     public static String EXTRA_IMAGE_ITEMS = "extra_image_items";
+    public static String EXTRA_SELECTED_IMAGE_POSITION = "extra_image_position";
 }
