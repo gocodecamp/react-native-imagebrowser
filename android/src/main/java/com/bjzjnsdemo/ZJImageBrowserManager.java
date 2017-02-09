@@ -36,7 +36,7 @@ public class ZJImageBrowserManager extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void showImage(ReadableArray images,int currentIndex) {
+    public void showBrowserWithImagesUrls(ReadableArray images,int currentIndex) {
         if (images != null && images.size() > 0) {
             ArrayList<ImageItem> allimages = new ArrayList<>();
             int size = images.size();
@@ -48,26 +48,6 @@ public class ZJImageBrowserManager extends ReactContextBaseJavaModule {
             Navigator.startImageViewActivity(getCurrentActivity(),allimages,currentIndex);
         }
     }
-
-    @ReactMethod
-    public void show() {
-//        callback.invoke("hahaha successs");
-
-        WritableMap map = Arguments.createMap();
-        map.putString("awesomeRating","hahahhaha");
-        sendEvent(getReactApplicationContext(),"Event",map);
-        Toast.makeText(getReactApplicationContext(),"DisplayImage",Toast.LENGTH_LONG).show();
-    }
-
-
-    private void sendEvent(ReactContext reactContext,
-                           String eventName,
-                           @Nullable WritableMap params) {
-        reactContext
-                .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
-                .emit(eventName, params);
-    }
-
 
 
 }
