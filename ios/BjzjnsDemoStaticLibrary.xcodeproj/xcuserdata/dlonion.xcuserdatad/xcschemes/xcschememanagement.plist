@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BjzjnsDemo.xcscheme_^#shared#^_</key>
+		<key>BjzjnsDemoStaticLibrary.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>00E356ED1AD99517003FC87E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>13B07F861A680F5B00A75B9A</key>
+		<key>03AA88941E4C37B5000F5ED8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

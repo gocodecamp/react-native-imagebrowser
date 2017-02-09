@@ -50,7 +50,5 @@ RCT_EXPORT_METHOD(showControllerWithCallback:(RCTResponseSenderBlock)callback)
 #pragma mark delegate
 - (void)richTextEditor:(ZSSRichTextEditor *)editor didExportHTML:(NSString *)html{
   [ZJRichEditorViewControllerManager sharedManager].callback(@[html]);
-  UINavigationController *rootVC = (UINavigationController *)[[[UIApplication sharedApplication] keyWindow] rootViewController];
-  [rootVC popViewControllerAnimated:YES];
 }
 @end

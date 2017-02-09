@@ -55,11 +55,6 @@
   self.navigationController.navigationBar.translucent = NO;
 }
 
-- (void)viewWillDisappear:(BOOL)animated{
-  [super viewWillDisappear:animated];
-  [self.view endEditing:YES];
-}
-
 - (void)showInsertURLAlternatePicker {
     
     [self dismissAlertView];

@@ -36,7 +36,7 @@ RCT_EXPORT_METHOD(showBrowserWithThumbImagesUrls:(NSArray *)thumbImagesUrls BigI
 
 RCT_EXPORT_METHOD(showBrowserWithImagesUrls:(NSArray *)imagesUrls initialIndex:(NSInteger)initialIndex)
 {
-  
+
   dispatch_async(dispatch_get_main_queue(), ^{
     self.imagesUrls = imagesUrls;
     //启动图片浏览器
