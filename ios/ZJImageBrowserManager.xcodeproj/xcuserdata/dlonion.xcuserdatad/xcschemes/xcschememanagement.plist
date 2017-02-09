@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BjzjnsDemoStaticLibrary.xcscheme</key>
+		<key>ZJImageBrowserManager.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>03AA88941E4C37B5000F5ED8</key>
+		<key>03191CD91E4C55B90013DDEF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

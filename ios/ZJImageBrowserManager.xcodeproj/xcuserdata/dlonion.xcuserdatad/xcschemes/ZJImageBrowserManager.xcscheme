@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "03AA88941E4C37B5000F5ED8"
-               BuildableName = "libBjzjnsDemoStaticLibrary.a"
-               BlueprintName = "BjzjnsDemoStaticLibrary"
-               ReferencedContainer = "container:BjzjnsDemoStaticLibrary.xcodeproj">
+               BlueprintIdentifier = "03191CD91E4C55B90013DDEF"
+               BuildableName = "libZJImageBrowserManager.a"
+               BlueprintName = "ZJImageBrowserManager"
+               ReferencedContainer = "container:ZJImageBrowserManager.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "03AA88941E4C37B5000F5ED8"
-            BuildableName = "libBjzjnsDemoStaticLibrary.a"
-            BlueprintName = "BjzjnsDemoStaticLibrary"
-            ReferencedContainer = "container:BjzjnsDemoStaticLibrary.xcodeproj">
+            BlueprintIdentifier = "03191CD91E4C55B90013DDEF"
+            BuildableName = "libZJImageBrowserManager.a"
+            BlueprintName = "ZJImageBrowserManager"
+            ReferencedContainer = "container:ZJImageBrowserManager.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "03AA88941E4C37B5000F5ED8"
-            BuildableName = "libBjzjnsDemoStaticLibrary.a"
-            BlueprintName = "BjzjnsDemoStaticLibrary"
-            ReferencedContainer = "container:BjzjnsDemoStaticLibrary.xcodeproj">
+            BlueprintIdentifier = "03191CD91E4C55B90013DDEF"
+            BuildableName = "libZJImageBrowserManager.a"
+            BlueprintName = "ZJImageBrowserManager"
+            ReferencedContainer = "container:ZJImageBrowserManager.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
