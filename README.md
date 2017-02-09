@@ -1,5 +1,5 @@
-# react-native-imagebrowser
-# method name showBrowserWithImagesUrls
+# package name react-native-imagebrowser
+method name showBrowserWithImagesUrls
 first parameter : images to display type is array
 
 second parameter: current display image index
