@@ -12,4 +12,5 @@ var imagesUrls = new Array('http://ww2.sinaimg.cn/bmiddle/53932067gw1esjqfk3z6zj
 first parameter : images to display type is array
 
 second parameter: current display image index
+
 DisplayImage.showBrowserWithImagesUrls(imagesUrls,0);       
