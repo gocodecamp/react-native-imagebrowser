@@ -3,7 +3,7 @@ method name showBrowserWithImagesUrls
 
 first parameter : images to display type is array
 
-second parameter: current display image index
+second parameter: current display image index type integer
 
 var DisplayImage = require('react-native').NativeModules.ZJImageBrowserManager;
 
